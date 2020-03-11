@@ -9,7 +9,7 @@ The website we proposed is an online booking system for MUJI hotel in order to a
 5. Start searching for rooms and make a booking!
 
 ## Screenshots
-![Image of UI](http://www.sfu.ca/~qza62/img/muji0.png)
-![Image of UI](http://www.sfu.ca/~qza62/img/muji1.png)
-![Image of UI](http://www.sfu.ca/~qza62/img/muji2.png)
-![Image of UI](http://www.sfu.ca/~qza62/img/muji3.png)
+![Image of UI 1](https://github.com/kikikkkkz/MUJIHotelBooking/blob/master/docs/muji0.png)
+![Image of UI 2](https://github.com/kikikkkkz/MUJIHotelBooking/blob/master/docs/muji1.png)
+![Image of UI 3](https://github.com/kikikkkkz/MUJIHotelBooking/blob/master/docs/muji2.png)
+![Image of UI 4](https://github.com/kikikkkkz/MUJIHotelBooking/blob/master/docs/muji3.png)
