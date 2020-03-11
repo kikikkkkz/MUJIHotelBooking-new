@@ -1,0 +1,550 @@
+/*
+*{
+	border: 1px solid black;
+}
+*/
+
+/*change selection colour*/
+::selection {
+	color: #fff;
+	background-color: #333;
+}
+
+::-moz-selection {
+	color: #fff;
+	background-color: #333;
+}
+
+/*fix the content*/
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+
+
+.footer {
+	text-align: center;
+	padding: 7em;
+	margin-top: 10em;
+	/*background-color: #AAA;*/
+}
+
+footer span {
+  color: white;
+  padding: 2em;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.6;
+	min-height: 100vh;
+	color: #34495e;
+	margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+h3 {
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+h2,
+h3,
+a {
+	color: #34495e;
+}
+
+a:link {
+	text-decoration: none;
+	color: #34495e;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #34495e;
+}
+
+
+
+
+.logo {
+	font-size: 1.45em;
+	margin-left: 2em;
+}
+
+.main-nav {
+   padding: 2em; 
+   background-color: rgba(192,192,192,0.3); 
+
+}
+
+.logo a,
+.main-nav a {
+	text-align: center;
+}
+
+/*.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #FFF;
+}*/
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
+/*page setup*/
+
+
+.room {
+	padding: 1em;
+	text-align: center;
+}
+
+.frame {
+  margin: 2em auto;
+}
+
+.box1 {
+	color: #34495e;
+    display: inline-block;
+    width: 50%;
+    height: 60%;
+    float: right;
+    padding: 2em;
+    margin: 4em 0;
+}
+
+.box1 a {
+	color: #34495e 
+  	border: 2px solid #34495e; 
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+
+.box1 p {
+	margin-top: 3em;
+}
+
+
+#cover-image{
+	width: 100%;
+	padding: 0.1em;
+}
+
+/*roomdetails css*/
+.details {
+	padding: 1em;
+}
+
+.details p, #display_comment{
+	width: 60%;
+	margin: 2em auto; 
+  	display: block; 
+}
+
+.details h3, #book { 
+  margin: 2em auto; 
+  text-align: center; 
+  display: block; 
+} 
+ 
+ 
+#display_comment { 
+  border: 10px solid #34495e; 
+  padding: 2em; 
+} 
+
+.comment_link {
+  display: block;
+  text-align: center;
+}
+
+#comment_form {
+  margin: auto;
+}
+
+#comment_message {
+  margin: auto;
+  text-align: center;
+}
+
+/*login css*/
+.login{
+	padding: 1em;
+	text-align: center;
+}
+
+.login table {
+	margin: auto;
+}
+
+
+/*register css*/
+.register {
+	padding: 1em;
+	text-align: center;
+}
+
+
+.register button{
+	text-align: left;
+}
+
+.register table {
+	margin: auto;
+}
+
+
+/*search css*/
+.search{
+	padding: 1em;
+	text-align: center;
+}
+
+.search table {
+	margin:auto;
+	padding: 0;
+}
+
+.search tr, th, td{
+	padding: 0 0.3em;
+}
+
+.search input { 
+  height: 40px; 
+  font-size: 22px; 
+} 
+
+/*searchresult css*/
+.result {
+	padding: 1em;
+}
+
+.result h3 {
+	text-align: center;
+}
+
+.section {
+	text-align: center;
+}
+
+.section p {
+	width: 70%;
+	margin: auto;
+}
+
+.box2 {
+	display: block;
+	width: 50%;
+	float: left;
+	padding: 1em;
+	margin: 5em 0;
+  text-align: left;
+}
+
+.box2 h3 {
+  padding: 1em;
+}
+
+.box2 input {
+  font-size: 25px;
+  letter-spacing: 0.1em;
+}
+
+
+.roomtype h3 {
+  font-size: 40px;
+}
+
+#room-image {
+	width: 100%;
+  height: 70%;
+}
+
+
+/*confrim css*/
+.confirm {
+    padding: 1em;
+    text-align: center;
+}
+
+.confirm table {
+	margin: auto;
+}
+
+
+/*reservation css*/
+.reservation {
+	padding: 1em;
+	text-align: center;
+}
+
+/*availability css*/
+.availability {
+	padding: 1em;
+}
+
+.availability h1 {
+	text-align: center;
+}
+
+#email {
+	background-color: #D3D3D3;
+}
+
+
+
+
+
+
+input[type="radio"][id^="avatar"] {
+  display: none;
+}
+
+label {
+  border: 1px solid #fff;
+  padding: 10px;
+  display: block;
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+label:before {
+  background-color: white;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid grey;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 28px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+}
+
+label img {
+  width: 100px;
+  transition-duration: 0.2s;
+  transform-origin: 50% 50%;
+}
+
+:checked + label {
+  border-color: #ddd;
+}
+
+:checked + label:before {
+  content: "✓";
+  background-color: grey;
+  transform: scale(1);
+}
+
+:checked + label img {
+  transform: scale(0.9);
+  box-shadow: 0 0 5px #333;
+  z-index: -1;
+}
+
+
+/*css for the header*/
+html, body 
+{ 
+    margin: 0px; 
+} 
+ 
+header 
+{   
+  font-family: 'Roboto', sans-serif; 
+    margin-bottom: 5em; 
+  text-align: center; 
+    /*background: #555;*/ 
+    background-image: url("images/rooms_type_c_4.jpg"); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 80%; 
+} 
+ 
+header h1 
+{ 
+    color: #AAA; 
+    font-size: 40px; 
+    font-weight: lighter; 
+    margin-bottom: 5px; 
+} 
+ 
+header span 
+{ 
+    color: #222; 
+} 
+ 
+footer span 
+{ 
+  color: #AAA; 
+} 
+  
+div.container 
+{ 
+    font-family: 'Roboto', sans-serif; 
+    margin: 0 auto; 
+  padding-top: 1em; 
+  padding-left: 1em; 
+  text-align: center; 
+  text-transform: uppercase; 
+  letter-spacing: 0.2em; 
+} 
+ 
+div.container a 
+{ 
+    text-decoration: none; 
+    font: 40px Roboto; 
+    margin: 0px 10px; 
+    padding: 10px 10px; 
+    position: relative; 
+    z-index: 0; 
+    cursor: pointer; 
+} 
+ 
+div.box 
+{ 
+    font-family: 'Roboto', sans-serif; 
+    width: 100%; 
+  padding-top: 1em; 
+  margin-left: 12em; 
+  text-align: center; 
+  text-transform: uppercase; 
+  letter-spacing: 0.1em; 
+} 
+ 
+div.box a 
+{ 
+    color: #FFF; 
+    text-decoration: none; 
+    font: 18px Roboto; 
+    margin: 0px 10px; 
+    padding: 10px 10px; 
+    position: relative; 
+    z-index: 0; 
+    cursor: pointer; 
+} 
+ 
+
+/* css for navigation bar - Top and Bottom borders go out */
+div.topBotomBordersOut a:before, div.topBotomBordersOut a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersOut a:before
+{
+    top: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersOut a:after
+{
+    bottom:  0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersOut a:hover:before, ul.topBotomBordersOut a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+/*css for all the buttons*/
+#search { 
+  font-size: 18px; 
+  letter-spacing: 0.2em; 
+  text-transform: uppercase; 
+  font-weight: 700; 
+} 
+ 
+/*#search, #post, .btn, button{ 
+  border: 2px solid #34495e; 
+  color: #34495e; 
+  background-color: #FFF; 
+  padding: 0.3em 1.2em; 
+} */
+ 
+ 
+/*.btn:hover, #search:hover, #post:hover, button:hover{ 
+    border: 2px solid #34495e; 
+    background-color: #34495e; 
+    color: #FFF; 
+    padding: 0.3em 1.2em; 
+}
+*/
+
+
+
