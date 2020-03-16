@@ -16,3 +16,5 @@ The website we proposed is an online booking system for MUJI hotel in order to a
 
 ## Showcase
 https://youtu.be/fzdpNLBjEIg
+
+IAT 352 Course Project © Qi Zhang and Jenny Zou
