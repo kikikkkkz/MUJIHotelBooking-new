@@ -3,9 +3,9 @@ The website we proposed is an online booking system for MUJI hotel in order to a
 
 ## Usage
 1. Clone the project using SSH Key.
-2. Install dependencies using the npm install command.
-3. Start the web server using the npm run local command. The app will be served at http://localhost:8080/.
-4. Go to http://localhost:8080/ in your browser.
+2. Install phpMyAdmin and XAMPP on your computer.
+3. Copy the project folder into /opt/lampp/htdocs.
+4. Go to http://localhost:8080/MUJIHotelBooking in your browser.
 5. Start searching for rooms and make a booking!
 
 ## Screenshots
@@ -13,3 +13,6 @@ The website we proposed is an online booking system for MUJI hotel in order to a
 ![Image of UI 2](https://github.com/kikikkkkz/MUJIHotelBooking/blob/master/docs/muji1.png)
 ![Image of UI 3](https://github.com/kikikkkkz/MUJIHotelBooking/blob/master/docs/muji2.png)
 ![Image of UI 4](https://github.com/kikikkkkz/MUJIHotelBooking/blob/master/docs/muji3.png)
+
+## Showcase
+https://youtu.be/fzdpNLBjEIg
